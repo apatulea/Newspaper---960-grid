@@ -1,0 +1,52 @@
+div{
+    margin-bottom: 2px;
+  }
+  .title{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .navbar ul{
+    list-style: none;
+    background-color: rgb(148, 214, 148);
+    margin: 0;
+  }
+  .navbar ul li{
+    display: inline-block;
+    font-weight: bold;
+    margin:10;
+    padding: 8px;
+  }
+  .navbar ul li:hover{
+    background-color: rgb(198, 236, 198);
+    cursor: pointer;
+  }
+  .page-1, .page-2{
+    box-sizing: border-box;
+    border: 4px solid #c5c5c5;
+    height: 300px;
+  }
+  .line{
+    height: 10px;
+    background-color: rgb(148, 214, 148); 
+  }
+  .grid_3 h3{
+    color: rgb(54, 113, 190);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .grid_3 h3:hover{
+    cursor: pointer;
+    color: rgb(3, 90, 253);
+    
+  }
+  .page-1{
+    overflow:scroll;  
+  }
+  .page-2 img{
+    width: 100%;
+    height: 100%;
+  }
